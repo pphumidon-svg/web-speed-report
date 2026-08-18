@@ -8,6 +8,7 @@
 <meta name="robots" content="noindex, nofollow">
 <style>
   :root {
+    color-scheme: light;
     --ground: #F7F9FA;
     --surface: #FFFFFF;
     --surface-sunk: #EDF1F3;
@@ -26,42 +27,7 @@
     --font-th: "Leelawadee UI", "Sukhumvit Set", "Noto Sans Thai", "Segoe UI", system-ui, -apple-system, sans-serif;
     --font-mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, "Liberation Mono", monospace;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --ground: #0D1418;
-      --surface: #141D23;
-      --surface-sunk: #1B262D;
-      --border: #253238;
-      --border-strong: #35454E;
-      --ink: #E6ECF0;
-      --ink-soft: #A3B2BB;
-      --ink-faint: #83939C;
-      --accent: #43BDB4;
-      --crit: #E8776A;
-      --crit-soft: #331917;
-      --warn: #D8A03F;
-      --warn-soft: #2E2413;
-      --ok: #55B583;
-      --ok-soft: #12291E;
-    }
-  }
-  :root[data-theme="dark"] {
-    --ground: #0D1418;
-    --surface: #141D23;
-    --surface-sunk: #1B262D;
-    --border: #253238;
-    --border-strong: #35454E;
-    --ink: #E6ECF0;
-    --ink-soft: #A3B2BB;
-    --ink-faint: #83939C;
-    --accent: #43BDB4;
-    --crit: #E8776A;
-    --crit-soft: #331917;
-    --warn: #D8A03F;
-    --warn-soft: #2E2413;
-    --ok: #55B583;
-    --ok-soft: #12291E;
-  }
+  /* เอกสารนี้ล็อกเป็นธีมสว่างเสมอ — ทุกเครื่องเห็นเหมือนกัน และตรงกับตอนพิมพ์ */
 
   /* reset */
   *, *::before, *::after { box-sizing: border-box; }
